@@ -9,7 +9,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 
 @SpringBootApplication
 @EnableScheduling
-@ComponentScan(basePackages = {"com.sw.zs.Bean"})
+@ComponentScan(basePackages = {"com.sw.zs"})
 public class LearnCreateSrpingbootApplication extends SpringBootServletInitializer {
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
